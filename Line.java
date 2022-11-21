@@ -1,8 +1,5 @@
 import java.util.*;
 
 public class Line {
-  private ArrayList<Customer> queue = new ArrayList<Customer>();
-
-  
-  
+  ArrayDeque<Customer> queue = new ArrayDeque<Customer>();
 }

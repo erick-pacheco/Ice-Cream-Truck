@@ -62,8 +62,13 @@ But wait, why is there an error?
     }
    ```
 
-   Add
+   Inside your `main` method, instanstiate a `Customer` and a new `Line` and assign to their respective variable. 
+   ```java
+   Line line = new Line();
+   Customer customer1 = new Customer("Erick");
+   ```
 
+    
 
   
   Remember, the Common queue operations

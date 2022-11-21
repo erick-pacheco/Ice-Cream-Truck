@@ -42,7 +42,7 @@ But wait, why is there an error?
 
    Notice that the `Customer` class has a `private` variable declared as _name_, which stores a `String`. Additionally, it is pre-configured with a getter method that returns the name of the customer. We don't have a setter function for _name_, that's because we cannot rename our customers. 
   
-6. Wait, what? No name?
+5. Wait, what? No name?
 
    Don't worry, we will add the name. However, this name will be assigned when we `instantiate` the Customer. Add the following code to your Customer, right below the private variable declaration.
 
@@ -52,7 +52,17 @@ But wait, why is there an error?
     }
    ```
    
-8. attendant
+6. Great work! Now is the time we use both component with our Truck. Go to the `Main.java` file. Your file should look something like this.
+
+   ```java
+    class Main {
+      public static void main(String[] args) {
+    
+      }
+    }
+   ```
+
+   Add
 
 
   

@@ -44,7 +44,7 @@ But wait, why is there an error?
   
 5. Wait, what? No name?
 
-   Don't worry, we will add the name. However, this name will be assigned when we `instantiate` the Customer. Add the following code to your Customer, right below the private variable declaration.
+   Don't worry, we will add the name using the `constructor`. This name will be assigned when we `instantiate` the Customer. Add the following code to your Customer, right below the private variable declaration.
 
    ```java
     public Customer(String name){

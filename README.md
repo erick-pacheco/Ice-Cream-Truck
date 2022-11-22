@@ -68,14 +68,29 @@ But wait, why is there an error?
    Customer customer1 = new Customer("Erick");
    ```
 
+    So far, the new class variables are not being used. So they will be underlined by your IDE. Let's use them next.
+
+
     
+7. Get in line to get Ice Cream! 🍧🍨🍦
 
-  
-  Remember, the Common queue operations
+   The next step is to have the customer1 get in line. But just how do we accomplish that? Remember, the common queue operations
 
+        offer: add to the end of the data structure
+        poll: remove from the front of the data structure
+        peek: get the first element in the data structure
 
-    offer: add to the end of the data structure
-    poll: remove from the front of the data structure
-    peek: get the first element in the data structure
+  Go to your `Line.java` file. 
 
-Customers line up to the `Ice Cream Parlor` (queue), so there should be a getter and setter method for the customers. Below what you have so far, inside the Line class, add the following code:
+8. Add method for customer to getInLine for ice cream. This method should be public, accept a Customer as a parameter, and does not return anything
+
+   Create a method that add customer to the line.
+   ```java
+   public void getInLine(Customer customer) {
+     queue.offer(customer);
+   }
+   ```
+   Go back to your `Main.java` and call the `getInLine()` method with customer1.
+   ```java
+   line.getInLine(customer1);
+   ```

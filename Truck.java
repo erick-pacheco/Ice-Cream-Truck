@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Truck {
+public class Truck extends Console {
   public void startShift() {
     try {
       File file = new File("assets/text/truck.txt"); // creates a new file instance
@@ -16,7 +16,7 @@ public class Truck {
       }
 
       fr.close(); // closes the stream and release the resources
-      System.out.println(sb.toString()); // returns a string that textually represents the object
+      log(sb.toString()); // returns a string that textually represents the object
     } catch (IOException e) {
       e.printStackTrace();
     }
